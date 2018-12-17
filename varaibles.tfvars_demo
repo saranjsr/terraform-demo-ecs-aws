@@ -1,0 +1,30 @@
+
+name = "test"
+
+region = "ap-southeast-1"
+
+environment = "dev"
+
+ecs_cluster = "default"
+
+cidr = "10.10.0.0/16"
+
+azs = ["ap-southeast-1a", "ap-southeast-1b", "ap-southeast-1c"]
+
+public_subnets = ["10.10.0.0/26", "10.10.0.128/26", "10.10.1.0/26"]
+
+private_subnets = ["10.10.0.64/26", "10.10.0.192/26", "10.10.1.64/26"]
+
+access_key = "xxxxxxxxxxxxxxxxxxxx"
+
+secret_key = "xxxxxxxxxxxxxxxxxxxxx"
+
+instance_type = "t2.micro"
+
+ecs_key_pair_name = "test"
+
+max_instance_size = "1"
+
+min_instance_size = "1"
+
+desired_capacity = "1"
